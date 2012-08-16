@@ -1,0 +1,59 @@
+body {
+	width: 100%;
+	font: normal 15px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+	color: #1a1ad9;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+	color: #1a1ad9;
+	margin: 30px 0;
+}
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+.container {
+	width: 830px;
+	padding: 0 @;
+	margin: 30px auto 80px;
+}
+
+.container header img {
+	width: 70px;
+}
+
+.container ul.listings {
+	list-style-type: none;
+	padding: 0;
+}
+
+.container ul.listings li {
+	border-top: 1px solid #ccc;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.container ul.listings li:first-child {
+	border-top: 3px solid #ccc;
+}
+
+.container ul.listings li .images {
+	margin-top: 20px;
+}
+
+.container ul.listings li .images img {
+	height: 300px;
+	margin-left: 20px;
+}
+
+.container ul.listings li .images img:first-child {
+	margin: 0;
+}
